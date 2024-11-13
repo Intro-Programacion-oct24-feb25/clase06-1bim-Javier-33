@@ -83,7 +83,7 @@ public class ComercioTres {
         // opción 4
         //funciona, pero al utilizar el &&, se convierte en falso cuando no 
         //cumplimos con una de las variables, por lo tanto en algunos valores
-        //da 10
+        //da 10, y no es lo que queremos
         if (porcentajeSeguro < 1 && porcentajeSeguro > 15) {
             porcentajeSeguro = 10;
         }
