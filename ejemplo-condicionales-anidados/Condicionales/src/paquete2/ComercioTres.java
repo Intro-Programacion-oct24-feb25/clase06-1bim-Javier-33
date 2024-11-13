@@ -64,6 +64,7 @@ public class ComercioTres {
         } else {
             porcentajeSeguro = 10;
         }
+        /*
 
         // opción 2
         //funciona, pero si damos un valor menor a 15, cambia su variable y
@@ -88,6 +89,7 @@ public class ComercioTres {
             porcentajeSeguro = 10;
         }
         
+        */
         // calcular la productividad
         productividad = numeroProductos * coeficiente;
         
