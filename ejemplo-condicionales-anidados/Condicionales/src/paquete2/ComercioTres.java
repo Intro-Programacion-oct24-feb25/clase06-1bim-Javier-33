@@ -56,7 +56,9 @@ public class ComercioTres {
         porcentajeSeguro = entrada.nextInt();
         
         
-        // opción 1 (la mia)
+        // opción 1 (yo elegiria mi opcion, opcion1)
+        //funciona ya que sea el valor que sea, cumple y nos da el nuevo valor
+        //de porcentajeSeguro
         if (porcentajeSeguro >= 1 && porcentajeSeguro <= 15) {
             porcentajeSeguro = porcentajeSeguro + 0;
         } else {
@@ -64,16 +66,24 @@ public class ComercioTres {
         }
 
         // opción 2
+        //funciona, pero si damos un valor menor a 15, cambia su variable y
+        //no es lo que se pide
         if (porcentajeSeguro > 15) {
             porcentajeSeguro = 10;
         }
 
          // opción 3
+         //funciona ya que si damos un valor dentro del rango de 1 y 15 nos
+         //proporciona ese valor, mientras que si damos un valor fuera de ese
+         //rango nos da 10
         if (porcentajeSeguro < 1 || porcentajeSeguro > 15) {
             porcentajeSeguro = 10;
         }
 
         // opción 4
+        //funciona, pero al utilizar el &&, se convierte en falso cuando no 
+        //cumplimos con una de las variables, por lo tanto en algunos valores
+        //da 10
         if (porcentajeSeguro < 1 && porcentajeSeguro > 15) {
             porcentajeSeguro = 10;
         }
